@@ -8,6 +8,7 @@ pyjwt = "*"
 cryptography = "*"
 fastapi = "*"
 uvicorn = "*"
+api = "*"
 
 [dev-packages]
 

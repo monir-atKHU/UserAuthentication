@@ -41,10 +41,10 @@ class ListTasksSchema(BaseModel):
     tasks: List[GetTaskSchema]
 
 
-def dataset_view(data: pd.DataFrame):
-    total_sales = data.sales.sum()
-    data.percent_sales = data.sales / total_sales
+# def dataset_view(data: pd.DataFrame):
+#     total_sales = data.sales.sum()
+#     data.percent_sales = data.sales / total_sales
 
-    return data, total_sales
+#     return data, total_sales
 
 
